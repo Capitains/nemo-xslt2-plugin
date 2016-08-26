@@ -1,0 +1,9 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:froLit:jns915" urn="urn:cts:froLit:jns915.jns1856">
+    <ti:title xml:lang="fre">Vie de saint Martin</ti:title>
+    <ti:edition workUrn="urn:cts:froLit:jns915.jns1856" urn="urn:cts:froLit:jns915.jns1856.ciham-fro1">
+        <ti:label xml:lang="fre">Vie de saint Martin</ti:label>
+        <ti:description xml:lang="fre">
+            édition du manuscrit : PARIS, Bibliothèque nationale de France, Manuscrits, fr. 00412
+        </ti:description>
+    </ti:edition>
+</ti:work>

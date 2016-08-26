@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.4"
+# command to install dependencies
+install:
+    - pip install -r requirements.txt
+    - pip install coveralls
+    - make requirements
+# command to run tests
+script:
+    - coverage run --source=nemo_xslttwo_plugin setup.py test
+after_success:
+    - coveralls

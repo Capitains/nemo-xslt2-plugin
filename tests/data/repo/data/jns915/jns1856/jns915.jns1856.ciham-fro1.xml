@@ -1,0 +1,239 @@
+﻿<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vie de saint Martin</title>
+            <author>Wauchier de Denain</author>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Ariane Pinche</publisher>
+            <availability>
+               <licence>creative commons CC BY-NC-SA 3.0 FR</licence>
+            </availability>
+            <date>2015-2018</date>
+            <idno>jns.915.jns1856.ciham-fro1</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="A">
+               <msIdentifier>
+                  <country>Paris</country>
+                  <settlement>Bibliothèque nationale de France</settlement>
+                  <idno>fr. 00412</idno>
+               </msIdentifier>
+               <head>
+                  <title>Oeuvres hagiographiques de Wauchier de Denain</title>
+                  <origDate>1285</origDate>
+                  <note>Notice tiré de la base Jonas, Anne-Françoise Leurquin et Marie-Laure Savoye,
+                     notice de "PARIS, Bibliothèque nationale de France, Manuscrits, fr. 00412" dans
+                     la base Jonas-IRHT/CNRS (permalink : <ref target="http://jonas.irht.cnrs.fr/manuscrit/45533">http://jonas.irht.cnrs.fr/manuscrit/45533</ref>). Consultation du
+                     03/07/2015 </note>
+               </head>
+               <msContents>
+                  <msItemStruct>
+                     <locus>fol.103-fol.170</locus>
+                     <author>Wauchier de Denain</author>
+                     <title>Oeuvres hagiographiques 'Li Seint Confessor' de Wauchier de
+                        Denain</title>
+                     <incipit>De saint <choice><orig>m</orig><reg>M</reg></choice>artin mout doit on doucement et volentiers le
+                        bieno<choice><orig>i</orig><reg>ï</reg></choice>r etentendre</incipit>
+                     <explicit/>
+                  </msItemStruct>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>parchemin</support>
+                        <extent>
+                           <width unit="mm">330</width>
+                           <height unit="mm">245</height>
+                        </extent>
+                        <foliation>21 Senions, 245 folios</foliation>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="46"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <scriptDesc>
+                     <scriptNote>Caroline</scriptNote>
+                  </scriptDesc>
+               </physDesc>
+               <history>
+                  <origin/>
+                  <provenance>
+                     <p/>
+                     <listBibl>
+                        <bibl>
+                           <author/>
+                           <title/>
+                           <pubPlace/>
+                           <publisher/>
+                           <date/>
+                        </bibl>
+                     </listBibl>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="section" matchPattern="(.+).(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1']/tei:div[@n='$2'])">
+               <p>This pointer pattern extracts chapter and section</p>
+            </cRefPattern>
+            <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts chapter.</p>
+            </cRefPattern>
+         </refsDecl>
+         <variantEncoding method="parallel-segmentation" location="internal"/>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   <text n="edition">
+      <body n="urn:cts:froLit:jns915.jns1856.ciham-fro1" xml:lang="fro">
+         <div type="chapter" n="1" facs="http://gallica.bnf.fr/ark:/12148/btv1b84259980/f215.highres">
+            <div type="section" n="1">
+               <p>
+                  <pb n="103" facs="http://gallica.bnf.fr/ark:/12148/btv1b84259980/f215.highres"/>
+                  <hi rend="rubricated"><choice>
+                        <orig>d</orig>
+                        <reg>D</reg>
+                     </choice>e<pc type="reg"> </pc><pc type="orig" ana="abreviation">.</pc><persName ref="#martin"><choice><abbr>s'</abbr><expan><ex>seint</ex></expan></choice><pc type="orig" ana="abreviation">.</pc><pc type="reg"> </pc><choice>
+                           <orig>m</orig>
+                           <reg>M</reg>
+                        </choice>artin</persName>
+                  </hi><pc type="reg"> </pc> <lb/>
+                  <hi rend="decorated-initial"><choice>
+                        <orig>M</orig>
+                        <reg>m</reg>
+                     </choice></hi>out doit on <lb/> doucement <lb/>
+                  <choice><abbr>⁊</abbr><expan>et </expan></choice><choice><orig>u</orig><reg>v</reg></choice>olentiers<lb/> le bien o<choice>
+                     <orig>i</orig>
+                     <reg>ï</reg>
+                  </choice>r <lb/> <choice><abbr>⁊</abbr><expan>et </expan></choice>entendre<pc type="reg" ana="conjonctionCoordination">,</pc> <lb/>car par le <lb/> bien sa<choice><orig>u</orig><reg>v</reg></choice>oir
+                  <lb/> <choice><abbr>⁊</abbr><expan>et </expan></choice>retenir<pc type="orig" ana="segPrep">:</pc><pc type="reg"> </pc><lb/>
+                  <cb n="b"/>
+                  <choice>
+                     <orig>P</orig>
+                     <reg>p</reg>
+                  </choice>uet l<pc type="reg">'</pc>en so<choice><orig>u</orig><reg>v</reg></choice>ent a<pc type="reg"> </pc>bien <choice><orig>u</orig><reg>v</reg></choice>enir.<pc type="reg"> </pc>Qui bien<lb/> ne<pc type="reg"> </pc>seit
+                     ne<pc type="reg"> </pc>bien n<pc type="reg">'</pc>entent<pc type="orig" ana="relative">.</pc><pc type="reg"> </pc> <choice>
+                     <orig>De</orig>
+                     <reg>de </reg>
+                  </choice>bien faire n<pc type="reg">'</pc>a <lb/> nul talent. Mes del bien
+                  nest so<choice><orig>u</orig><reg>v</reg></choice>ent li <lb/> biens<choice ana="balancement"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice> <choice>
+                     <orig>D</orig>
+                     <reg>d</reg>
+                  </choice>el mal li maus si<pc type="reg"> </pc>com dist l<pc type="reg">'</pc><choice><orig>e</orig><reg>E</reg></choice>scri<lb/>ture.<pc type="reg"> </pc><choice><orig>p</orig><reg>P</reg></choice>or ce se doit l<pc type="reg">'</pc>en au bien a<choice><orig>u</orig><reg>v</reg></choice>oier <pc type="orig" ana="coordination">:</pc><choice><abbr>⁊</abbr><expan>et </expan></choice><lb/> le<pc type="reg"> </pc>bien
+                  feire<choice ana="subordonnée"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice>si com li seint home firent <lb/>
+                  <choice>
+                     <orig>C</orig>
+                     <reg>ç</reg>
+                  </choice>a en arriere<pc type="orig" ana="relative">:</pc><pc type="reg"> </pc>de cui nos
+                  tro<choice><orig>u</orig><reg>v</reg></choice>ons les oe<lb/><choice><orig>u</orig><reg>v</reg></choice>res <choice><abbr>⁊</abbr><expan>et </expan></choice><pc type="reg"> </pc>les <choice><orig>u</orig><reg>v</reg></choice>ies
+                     escriptures<note>La leçon n'a pas de sens, à corriger par escriptes (vérifier
+                     dans les autres témoins)</note>. Et bien sacent<pc type="reg"> </pc><lb/> tuit cil qi
+                     <choice><orig>u</orig><reg>v</reg></choice>i<choice><orig>u</orig><reg>v</reg></choice>ent<pc type="orig" ana="completive">.</pc><pc type="reg"> </pc>qe <choice><orig>i</orig><reg>j</reg></choice>a n<pc type="reg">'</pc>auront tant<lb/> de bien fet en totes lor <choice><orig>u</orig><reg>v</reg></choice>ies<pc type="orig" ana="completive">:</pc><pc type="reg"> </pc>qe<pc type="reg"> </pc>qant
+                  la<pc type="reg"> </pc><lb/>mort dont nule rien n<pc type="reg">'</pc>eschape<pc type="orig" ana="relative">.</pc><pc type="reg"> </pc>les poin<lb/>dera au cuer<pc type="orig" ana="relative">:</pc><pc type="reg"> </pc>q<pc type="reg">'</pc>il ne cuident
+                  petit a<choice><orig>u</orig><reg>v</reg></choice>oir<pc type="reg"> </pc><lb/>fait. Dex<pc type="reg"> </pc><pc type="reg">!</pc>  <choice><orig>q</orig><reg>Q</reg></choice>e feront
+                     dont<pc type="orig" ana="relative">.</pc><pc type="reg"> </pc>cil qui riche sont<pc type="reg"> </pc><lb/>
+                  <choice><abbr>⁊</abbr><expan>et </expan></choice>aise de l<pc type="reg">'</pc>a<choice><orig>u</orig><reg>v</reg></choice>oir de cest
+                  siecle<choice ana="conjonctionCoordination"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice>ne en eus n<pc type="reg">'</pc><choice><abbr>ō</abbr><expan>o<ex>n</ex></expan></choice>t<pc type="reg"> </pc><lb/>dou<choice>
+                     <orig>c</orig>
+                     <reg>ç</reg>
+                  </choice>or ne humilit<choice><orig>e</orig><reg>é</reg></choice><pc type="orig" ana="coordination">:</pc><pc type="reg"> </pc>ne<pc type="reg"> </pc>misericorde<choice ana="conjonctionCoordination"><orig>.</orig><reg>,<pc type="reg"> </pc></reg></choice>a<choice><abbr>ĩ</abbr><expan>i<ex>n</ex></expan></choice>z<pc type="reg"> </pc><lb/>sont plein
+                     d<pc type="reg">'</pc>angoisse <choice><abbr>⁊</abbr><expan>et </expan></choice><pc type="reg"> </pc>de tra<choice><orig>i</orig><reg>ï</reg></choice>sson <choice><abbr>⁊</abbr><expan>et </expan></choice>de<pc type="reg"> </pc>fe<lb/>lonie<pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>de<pc type="reg"> </pc>si grant a<choice><orig>u</orig><reg>v</reg></choice>arice<pc ana="correlative" type="orig">.</pc><pc type="reg"> </pc>qe com plus<pc type="reg"> </pc><lb/>ont richesces
+                  <choice><abbr>⁊</abbr><expan>et </expan></choice>a<choice><orig>u</orig><reg>v</reg></choice>oirs<choice ana="balancement"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice> plus en<pc type="reg"> </pc>desirrent<lb/> a<pc type="reg"> </pc>a<choice><orig>u</orig><reg>v</reg></choice>oir<choice ana="interrogation">
+                     <orig>.</orig>
+                     <reg><pc type="reg"> </pc>?</reg>
+                  </choice><pc type="reg"> </pc>Ce fet li deables qi en tel manie<lb/>re les a laciez
+                     <choice><abbr>⁊</abbr><expan>et </expan></choice>pris<pc type="orig" ana="correlative">.</pc><pc type="reg"> </pc>q<pc type="reg">'</pc>il les enmeine en<pc type="reg"> </pc><lb/>infer le<pc type="reg"> </pc>grant chemin plenier<choice><orig>:</orig><reg>.<pc type="reg"> </pc></reg></choice><choice><orig>d</orig><reg>D</reg></choice>e<pc type="reg"> </pc>ce se<pc type="reg"> </pc><lb/>gardent li seint home qi par dolereuses
+                  pe<choice><abbr>ĩ</abbr><expan>i<ex>n</ex></expan></choice><lb/>nes <choice><abbr>⁊</abbr><expan>et </expan></choice>par griez tormenz<pc type="orig" ana="coordination">:</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>par<pc type="reg"> </pc><choice><orig>u</orig><reg>v</reg></choice>eilles <choice><abbr>⁊</abbr><expan>et </expan></choice><choice><abbr>﻿ꝑ</abbr><expan>p<ex>ar</ex></expan></choice><pc type="reg"> </pc><lb/>geunes<pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>par toutes bones
+                  oe<choice><orig>u</orig><reg>v</reg></choice>res firent<pc type="reg"> </pc><lb/>tant q<pc type="reg">'</pc>il<pc type="reg"> </pc><choice><orig>u</orig><reg>v</reg></choice>indrent
+                     a<pc type="reg"> </pc><choice><orig>u</orig><reg>v</reg></choice>ie <choice><abbr>﻿ꝑ</abbr><expan>p<ex>ar</ex></expan></choice>menable <choice><abbr>⁊</abbr><expan>et </expan></choice>a<pc type="reg"> </pc>la<lb/> corone de gloire<choice><orig>:</orig><reg>.<pc type="reg"> </pc></reg></choice>A<pc type="reg"> </pc>ce regarderent li<pc type="reg"> </pc>se<choice><abbr>ĩ</abbr><expan>i<ex>n</ex></expan></choice>t <lb/>
+                     confessors<pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>mes sires <persName ref="#martin">seinz <choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                     </choice>artins</persName><pc type="orig" ana="relative">:</pc><pc type="reg"> </pc><lb/>dont
+                  ci comence la <choice><orig>u</orig><reg>v</reg></choice>ie.<lb/></p>
+            </div>
+         </div>
+         <div type="chapter" n="2" facs="http://gallica.bnf.fr/ark:/12148/btv1b84259980/f215.highres, http://gallica.bnf.fr/ark:/12148/btv1b84259980/f216.highres" corresp="urn:cts:latinLit:stoa0270.stoa002.opp-lat2:2">
+            <!-- Vie de saint Martin de Sulpice Sévère, II,1 -->
+            <div n="1" type="section">
+               <p><persName ref="#martin"><hi rend="decorated-initial">S</hi><choice>
+                        <orig>E</orig>
+                        <reg>e</reg>
+                     </choice>inz <choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                     </choice>artins</persName> fu nez de la con<lb/>tree de<pc type="reg"> </pc><placeName ref="#pannonie"><choice>
+                        <orig>p</orig>
+                        <reg>P</reg>
+                     </choice>annone</placeName><pc type="reg" ana="apposition">,</pc> d<pc type="reg">'</pc>un chastiel<pc type="reg"> </pc><lb/>qi <placeName ref="#sabarie"><choice><orig>ẏ</orig><reg>Y</reg></choice>sabbarie</placeName><pc type="reg"> </pc>a<choice><orig>u</orig><reg>v</reg></choice>oit non<choice><orig>:</orig><reg>.<pc type="reg"> </pc></reg></choice> <lb/><choice><orig>s</orig><reg>S</reg></choice>i
+                  fu de haute lignie <choice><abbr>⁊</abbr><expan>et </expan></choice>de<pc type="reg"> </pc>par mere
+                     <choice><abbr>⁊</abbr><expan>et </expan></choice>de<pc type="reg"> </pc>par <choice><abbr>﻿ꝑ</abbr><expan>p<ex>er</ex></expan></choice>e<pc type="reg">.</pc><pc type="reg"> </pc> <lb/>Ses peres fu che<choice><orig>u</orig><reg>v</reg></choice>aliers <choice><abbr>⁊</abbr><expan>et </expan></choice>hauz hom
+                  <choice><abbr>⁊</abbr><expan>et </expan></choice>ri<lb/>ches<choice><orig>:</orig><reg>.<pc type="reg"> </pc></reg></choice><choice><orig>⁊</orig><reg>Et<pc type="reg"> </pc></reg></choice>il comen<choice>
+                     <orig>c</orig>
+                     <reg>ç</reg>
+                  </choice>a tres s<pc type="reg">'</pc>enfance bones<pc type="reg"> </pc><lb/>oe<choice><orig>u</orig><reg>v</reg></choice>res
+                  a<pc type="reg"> </pc>feire <choice><abbr>⁊</abbr><expan>et </expan></choice>a<pc type="reg"> </pc>ensi<choice><orig>u</orig><reg>v</reg></choice>re<choice ana="conjonctionCoordination"><orig>.</orig><reg>,<pc type="reg"> </pc></reg></choice><choice>
+                     <orig>C</orig>
+                     <reg>c</reg>
+                  </choice>ar tresce q<pc type="reg">'</pc>il <lb/> n<pc type="reg">'</pc>a<choice><orig>u</orig><reg>v</reg></choice>oit qe<pc type="reg"> </pc><pc ana="number">.</pc><seg type="number">x</seg><pc ana="number">.</pc><pc type="reg"> </pc>anz<pc type="reg" ana="subordonnée">,</pc> comen<choice>
+                     <orig>c</orig>
+                     <reg>ç</reg>
+                  </choice>a il a<pc type="reg"> </pc>aler a<pc type="reg"> </pc>sein<lb/>te glisse<pc type="orig" ana="segPrep">:</pc><pc type="reg"> </pc>maugr<choice><orig>e</orig><reg>é</reg></choice> son<pc type="reg"> </pc>pere
+                     <choice><abbr>⁊</abbr><expan>et </expan></choice>sa<pc type="reg"> </pc>mere qi<pc type="reg"> </pc><lb/>paien estoient. Et
+                  qant il <choice><orig>u</orig><reg>v</reg></choice>int en l<pc type="reg">'</pc>aage<pc type="reg"> </pc><lb/>de<pc type="reg"> </pc><pc ana="number">.</pc><seg type="number">xii</seg><pc ana="number">.</pc><pc type="reg"> </pc>anz<choice ana="subordonnée"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice>il co<choice><orig>u</orig><reg>v</reg></choice>oita molt a<pc type="reg"> </pc>mener <choice><orig>u</orig><reg>v</reg></choice>ie<lb/> solitaire <choice><abbr>⁊</abbr><expan>et </expan></choice>a<pc type="reg"> </pc>aler en hermitage<pc ana="coordination" type="orig">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>si e<choice><orig>u</orig><reg>ü</reg></choice>st<lb/> il fait<choice ana="conjonctionCoordination"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice>mes la<pc type="reg"> </pc><choice><orig>i</orig><reg>j</reg></choice>o<choice><orig>u</orig><reg>v</reg></choice>enece de<pc type="reg"> </pc>l<pc type="reg">'</pc>aage l<pc type="reg">'</pc>en de<lb/>tint
+                     <choice><abbr>⁊</abbr><expan>et </expan></choice><pc type="reg"> </pc>retraist<pc type="orig">:</pc> de ce q<pc type="reg">'</pc>il a<choice><orig>u</orig><reg>v</reg></choice>oit so<choice><orig>u</orig><reg>v</reg></choice>entes<lb/> foies en sa pensee. Et ne
+                  por qant en sa <lb/> <choice><orig>i</orig><reg>j</reg></choice>o<choice><orig>u</orig><reg>v</reg></choice>enece fu<pc type="reg"> </pc>il si ententis
+                  entor seinte<pc type="reg"> </pc><lb/><choice><orig>ẏ</orig><reg>y</reg></choice>glisse<pc type="orig" ana="correlative">:</pc><pc type="reg"> </pc>q<pc type="reg">'</pc>il i<pc type="reg"> </pc>porpensa en s<pc type="reg">'</pc>enfance ce q<pc type="reg">'</pc>il<lb/> aempli mout docement qant il <choice><orig>u</orig><reg>v</reg></choice>int en<pc type="reg"> </pc><lb/>
+                  <pb n="103" facs="http://gallica.bnf.fr/ark:/12148/btv1b84259980/f216.highres"/>
+                  <cb n="c"/>plus grant aage.<pc type="reg"> </pc>Et adonc <choice><orig>u</orig><reg>v</reg></choice>int li bans<pc type="reg"> </pc><lb/>de<pc type="reg"> </pc>par les em<choice><abbr>﻿ꝑ</abbr><expan>p<ex>er</ex></expan></choice>eors qe li <choice><orig>u</orig><reg>v</reg></choice>iel home qi<pc type="reg"> </pc>les<pc type="reg"> </pc><lb/> enfanz a<choice><orig>u</orig><reg>v</reg></choice>oient<pc type="orig" ana="relative">:</pc><pc type="reg"> </pc>che<choice><orig>u</orig><reg>v</reg></choice>aliers les fe<choice><orig>i</orig><reg>ï</reg></choice>ssent. <lb/>
+                  <choice>
+                     <orig>a</orig>
+                     <reg>A</reg>
+                  </choice>donc a<choice><orig>u</orig><reg>v</reg></choice>oit <persName ref="#martin">seinz <choice>
+                        <orig>m</orig>
+                        <reg>M</reg>
+                     </choice>artins</persName><pc type="reg"> </pc><pc ana="number">.</pc><seg type="number">xv</seg><pc ana="number">.</pc><pc type="reg"> </pc>anz<choice ana="conjonctionCoordination"><orig>.</orig><reg>,<pc type="reg"> </pc></reg></choice>si<pc type="reg"> </pc>s<pc type="reg">'</pc>en<pc type="reg"> </pc><lb/>ala a<pc type="reg"> </pc>la court por<pc type="reg"> </pc>estre che<choice><orig>u</orig><reg>v</reg></choice>aliers
+                  <choice><abbr>⁊</abbr><expan>et </expan></choice>ensam<lb/>ble o<pc type="reg"> </pc>soi un ser<choice><orig>i</orig><reg>j</reg></choice>ant qi le
+                  ser<choice><orig>u</orig><reg>v</reg></choice>oit tant seu<lb/>lement.<pc type="reg"> </pc>Et lors fu il adoubez
+                     <choice><abbr>⁊</abbr><expan>et </expan></choice>che<choice><orig>u</orig><reg>v</reg></choice>aliers<pc type="reg"> </pc><lb/><pc ana="number">.</pc><seg type="number">iii</seg><pc ana="number">.</pc><pc type="reg"> </pc>anz de<choice><orig>u</orig><reg>v</reg></choice>ant ce q<pc type="reg">'</pc>il fust baptizi<choice><orig>e</orig><reg>é</reg></choice>s.<pc type="reg"> </pc><choice><orig>⁊</orig><reg>Et<pc type="reg"> </pc></reg></choice>la<pc type="reg"> </pc><lb/>demora il
+                     a<pc type="reg"> </pc>la court grant piece<choice ana="apposition"><orig>.</orig><reg>,<pc type="reg"> </pc></reg></choice>si douz
+                  <choice><abbr>⁊</abbr><expan>et </expan></choice><lb/>si debonaires <choice><abbr>⁊</abbr><expan>et </expan></choice>si humles a<pc type="reg"> </pc>totes genz q<pc type="reg">'</pc>il <lb/> n<pc type="reg">'</pc>a<choice><orig>u</orig><reg>v</reg></choice>oit en lui <choice><orig>u</orig><reg>v</reg></choice>ice ne<pc type="reg"> </pc>mal<choice><orig>u</orig><reg>v</reg></choice>esti<choice><orig>e</orig><reg>é</reg></choice><pc type="orig" ana="coordination">:</pc><pc type="reg"> </pc>ne<pc type="reg"> </pc>nule<pc type="reg"> </pc><lb/>folie.<pc type="reg"> </pc>En lui
+                  a<choice><orig>u</orig><reg>v</reg></choice>oit amors en<choice><orig>u</orig><reg>v</reg></choice>ers ses com<lb/>paignons<pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>dou<choice><orig>c</orig><reg>ç</reg></choice>our<pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>piti<choice><orig>e</orig><reg>é</reg></choice><pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc>
+                     <choice><abbr>⁊</abbr><expan>et </expan></choice>benignet<choice><orig>e</orig><reg>é</reg></choice> <lb/><choice><abbr>⁊</abbr><expan>et </expan></choice>charit<choice><orig>e</orig><reg>é</reg></choice><pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>pacience<pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>bone
+                     <choice><orig>u</orig><reg>v</reg></choice>olent<choice><orig>e</orig><reg>é</reg></choice><pc type="orig" ana="coordination">.</pc><pc type="reg"> </pc>
+                     <choice><abbr>⁊</abbr><expan>et </expan></choice>hu<lb/>milit<choice><orig>e</orig><reg>é</reg></choice><pc type="orig" ana="epithete">.</pc><pc type="reg"> </pc>si
+                  grant q<pc type="reg">'</pc>ele trespassoit tote l<pc type="reg">'</pc>u<lb/>manit<choice><orig>e</orig><reg>é</reg></choice>  de cest
+                  monde<choice ana="conjonctionCoordination"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice><choice><abbr>⁊</abbr><expan>et </expan></choice>si ert il si douz
+                     <choice><abbr>⁊</abbr><expan>et </expan></choice><lb/>si<pc type="reg"> </pc>pius <choice><abbr>⁊</abbr><expan>et </expan></choice>de bone
+                     atemprance<pc type="orig" ana="correlative">.</pc><pc type="reg"> </pc>si q<pc type="reg">'</pc>il resem<lb/>bloit mielz home de religion<pc type="orig" ana="correlative">:</pc><pc type="reg"> </pc>qe cheval<choice><orig>'</orig><reg>ier</reg></choice>s<pc type="reg"> </pc><lb/>par la grant
+                  simplece c<pc type="reg">'</pc>on en<pc type="reg"> </pc>lui <choice><orig>u</orig><reg>v</reg></choice>eoit<pc type="orig" ana="coordination">:</pc><pc type="reg"> </pc><lb/><choice><abbr>⁊</abbr><expan>et </expan></choice>par<pc type="reg"> </pc>ce a<choice><orig>u</orig><reg>v</reg></choice>oit il si
+                  ses <choice><abbr>ꝯ</abbr><expan><ex>con</ex></expan></choice>paignons trestoz<pc type="reg"> </pc><lb/> <choice><orig>u</orig><reg>v</reg></choice>eincuz<pc type="orig" ana="correlative">:</pc><pc type="reg"> </pc>q<pc type="reg">'</pc>il tuit l<pc type="reg">'</pc>oneroient molt <choice><orig>u</orig><reg>v</reg></choice>ol<choice><abbr>ē</abbr><expan>e<ex>n</ex></expan></choice><lb/>tiers <pc type="orig" ana="coordination">:</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice><pc type="reg"> </pc>portoient
+                  signorie <choice><abbr>⁊</abbr><expan>et </expan></choice>re<choice><orig>u</orig><reg>v</reg></choice>erence.<pc type="reg"> </pc><lb/> <choice><orig>⁊</orig><reg>Et<pc type="reg"> </pc></reg></choice>adonc encore n<pc type="reg">'</pc>ert il mie rengenerez<pc type="reg"> </pc><lb/> de<pc type="reg"> </pc>la seinte e<choice><orig>u</orig><reg>v</reg></choice>e de baptesme<pc ana="coordination" type="orig">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>si feisoit<pc type="reg"> </pc><lb/>il ne por qant les oe<choice><orig>u</orig><reg>v</reg></choice>res
+                  qi del baptesme<pc type="reg"> </pc><lb/>de<choice><orig>u</orig><reg>v</reg></choice>oient nestre. C<pc type="reg">'</pc>est cil
+                  qi confortoit cels<pc type="reg"> </pc><lb/>qi por l<pc type="reg">'</pc>amor nostre
+                  <choice><orig>s</orig><reg>S</reg></choice>eignor soffroient tra<lb/>vail <choice><abbr>⁊</abbr><expan>et </expan></choice>paine.<pc type="reg"> </pc><choice><orig>⁊</orig><reg>Et<pc type="reg"> </pc></reg></choice>si aidoit
+                  les po<choice><orig>u</orig><reg>v</reg></choice>res <choice><abbr>⁊</abbr><expan>et </expan></choice><pc type="reg"> </pc>les<pc type="reg"> </pc><lb/>chetis<choice ana="conjonctionCoordination"><orig>.</orig><reg>,<pc type="reg"> </pc></reg></choice><choice><abbr>⁊</abbr><expan>et </expan></choice>norrissoit les
+                     besoigneus<pc type="orig">.</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>re<lb/><choice><orig>u</orig><reg>v</reg></choice>estoit les
+                  nuz.<pc type="reg"> </pc>Einsi aemplissoit il les<pc type="reg"> </pc><lb/>oe<choice><orig>u</orig><reg>v</reg></choice>res de misericorde de<choice><orig>u</orig><reg>v</reg></choice>ant ce
+                     q<pc type="reg">'</pc>il e<choice><orig>u</orig><reg>ü</reg></choice>st<pc type="reg"> </pc><lb/> re<choice><orig>c</orig><reg>ç</reg></choice>e<choice><orig>u</orig><reg>ü</reg></choice>
+                  baptesme.<pc type="reg"> </pc>Et si ne gardoit de ses sols<lb/><pc type="reg"> </pc>ne de ses gages q<pc type="reg">'</pc>il a<choice><orig>u</orig><reg>v</reg></choice>oit a<pc type="reg"> </pc>court si
+                  come<pc type="reg"> </pc><lb/> chevaliers<choice ana="subordonnée"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice>fors tant solement com il en <lb/>
+                  a<choice><orig>u</orig><reg>v</reg></choice>oit mestier le <choice><orig>i</orig><reg>j</reg></choice>or a<pc type="reg"> </pc><choice><orig>u</orig><reg>v</reg></choice>i<choice><orig>u</orig><reg>v</reg></choice>re<choice ana="conjonctionCoordination"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice> <choice><abbr>⁊</abbr><expan>et </expan></choice>l<pc type="reg">'</pc>autre<pc type="reg"> </pc><lb/>de<choice><abbr>﻿ꝑ</abbr><expan>p<ex>ar</ex></expan></choice>toit <choice><abbr>⁊</abbr><expan>et </expan></choice>donoit tout as
+                     po<choice><orig>u</orig><reg>v</reg></choice>res<pc type="orig" ana="coordination">:</pc><pc type="reg"> </pc><choice><abbr>⁊</abbr><expan>et </expan></choice>a<pc type="reg"> </pc>cels <lb/> qi en a<choice><orig>u</orig><reg>v</reg></choice>oient mestier
+                  <choice><abbr>⁊</abbr><expan>et </expan></choice>besoigneus estoi<lb/>ent<choice ana="conjonctionCoordination"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice><choice><abbr>⁊</abbr><expan>et </expan></choice>bien
+                  retenoit <choice><orig>i</orig><reg>j</reg></choice>a <choice><abbr>⁊</abbr><expan>et </expan></choice> aemplissoit<pc type="reg"> </pc><lb/>les paroles de l<pc type="reg">'</pc><choice><orig>e</orig><reg>E</reg></choice><choice><orig>u</orig><reg>v</reg></choice>angile q<pc type="reg">'</pc>il
+                  a<choice><orig>u</orig><reg>v</reg></choice>oit o<choice><orig>i</orig><reg>ï</reg></choice>es<choice ana="conjonctionCoordination"><orig>:</orig><reg>,<pc type="reg"> </pc></reg></choice> <lb/>car il ne pensoit mie de lendemein
+                  si<pc type="reg"> </pc><lb/>come mout de genz font ores.<lb/>
+               </p>
+            </div>
+         </div>
+
+      </body>
+   </text>
+</TEI>

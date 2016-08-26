@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# PyCharm
+venv
+.idea
+
+# Jars
+jars
+
+# Created folders by the tests
+cache
+
 # C extensions
 *.so
 
