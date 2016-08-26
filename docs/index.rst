@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 XSLT2 for Nemo Plugin
-========================
+=====================
 
 .. include:: ../README.rst
 
