@@ -8,6 +8,9 @@ Transformers
 .. autoclass:: nemo_xslttwo_plugin.SaxonShellTransform
     :members:
 
+.. autoclass:: nemo_xslttwo_plugin.SaxonStreamTransform
+    :members:
+
 Commons
 #######
 
