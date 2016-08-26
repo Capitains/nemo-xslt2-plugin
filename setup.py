@@ -13,8 +13,7 @@ setup(
     tests_require=[
         "capitains_nautilus>=0.0.5",
         "flask_nemo>=1.0.0b2",
-        "werkzeug>=0.11.0"
+        "Werkzeug>=0.11.0"
     ],
-    include_package_data=True,
-    zip_safe=False
+    install_requires=[]
 )
